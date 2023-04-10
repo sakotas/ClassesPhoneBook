@@ -11,6 +11,7 @@ def start():
             case 1:
                 phonebook.open()
                 view.print_message(txt.successful_open)
+                print('это победа!')
             case 2:
                 phonebook.save()
                 view.print_message(txt.successful_save)
